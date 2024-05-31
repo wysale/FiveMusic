@@ -14,4 +14,4 @@ function myFunction() {
         }
     }
 }
-
+location.href = "browse.html";

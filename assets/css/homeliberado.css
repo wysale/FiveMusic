@@ -23,6 +23,12 @@ body{
   margin: 10px 50px 20px;
   font-size: 50%;
 }
+.main-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  
+}
 
 
 

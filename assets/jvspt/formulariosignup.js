@@ -8,13 +8,13 @@ function cadastroUser(){
 }
 
 function userCadastrado(){
-    window.location = "browse.html";
+    location.href = "browse.html";
 }
 
 function reviewAlbum(){
     if (userCadastrado == ""){
         window.location = "";
     } else{
-        window.location = ""
+        location.href = "browse.html";
     }
 }
