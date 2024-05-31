@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse</title>
+  <link rel="shortcut icon" href="./assets/imagens/LOGOOFICIAL.webp" width="200px">
+  <link rel="stylesheet" href="./assets/css/browse.css">
+  <script src="./assets/jvspt/browse.js" defer></script>
+</head>
+
+<body>
+
+  <!--ANIMAÇÃO CARREGAMENTO -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span> <!--SPAN É FAÇA-->
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start (parte da logo) ***** -->
+  <header class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+
+            <!--logo -->
+            <a href="index-1.html">
+              <img src="assets/imagens/LOGOOFICIAL.webp" width="50px" alt="" id="logo">
+            </a>
+
+            <!--search-->
+            <!--search-->
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for albums or genre.."
+              title="Type an album">
+
+            <ul id="myUL">
+              <li><a href="#">pop</a></li> <!--redirecionamento de pesquisa para suas respectivas paginas-->
+              <li><a href="#">kpop</a></li>
+              <li><a href="#">sertanejo</a></li>
+              <li><a href="#">indie</a></li>
+              <li><a href="#">rock</a></li>
+              <li><a href="#">mpb</a></li>
+              <li><a href="#">hip hop</a></li>
+
+              <li><a href="#">favourite worst nightmare</a></li>
+              <li><a href="#">make it go quiet</a></li>
+              <li><a href="#">lush</a></li>
+              <li><a href="#">o my heart</a></li>
+              <li><a href="#">perfect pair</a></li>
+
+              <li><a href="#">zone</a></li>
+              <li><a href="#">newjeans</a></li>
+              <li><a href="#">proof</a></li>
+              <li><a href="#">born pink</a></li>
+              <li><a href="#">with youth</a></li>
+
+              <li><a href="#">a pele do futuro</a></li>
+              <li><a href="#">djavan</a></li>
+              <li><a href="#">falso brilhante</a></li>
+              <li><a href="#">o tempo é agora</a></li>
+              <li><a href="#">tribalista</a></li>
+
+              <li><a href="#">lust for life</a></li>
+              <li><a href="#">motomami</a></li>
+              <li><a href="#">scarlet</a></li>
+              <li><a href="#">the fame of monster</a></li>
+              <li><a href="#">lemonade</a></li>
+
+              <li><a href="#">igor</a></li>
+              <li><a href="#">to pimp a butterfly</a></li>
+              <li><a href="#">melt my eyez see your future</a></li>
+              <li><a href="#">swimming</a></li>
+              <li><a href="#">the life of pablo</a></li>
+
+              <li><a href="#">appetite for destruction</a></li>
+              <li><a href="#">back in black</a></li>
+              <li><a href="#">british steel</a></li>
+              <li><a href="#">master of puppets</a></li>
+              <li><a href="#">slippery when wet</a></li>
+
+              <li><a href="#">bebendo e sofrendo</a></li>
+              <li><a href="#">identidade</a></li>
+              <li><a href="#">o fantastico mundo de nattan</a></li>
+              <li><a href="#">paraiso particular</a></li>
+              <li><a href="#">to be</a></li>
+
+              <li><a href="#">cowboy carter</a></li>
+              <li><a href="#">eternal sunshine</a></li>
+              <li><a href="#">we still dont trust you</a></li>
+              <li><a href="#">guts</a></li>
+              <li><a href="#">might delete later</a></li>
+              <li><a href="#">sos</a></li>
+              <li><a href="#">minisode</a></li>
+            </ul>
+
+            <!--menu-->
+            <ul class="nav">
+              <li><a href="./index-1.html"><button>HOME</button></a></li>
+              <li><a href="./browse.html"><button>BROWSE</button></a></li>
+              <li><a href="./playlist.html"><button>PLAYLIST</button></a></li>
+              <li><a href="./profile.html"><button>PROFILE</button></a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="container-genero">
+    <div class="card">
+      <img class="background" src="./assets/imagens/pop.jfif" alt="">
+
+      <div class="card-content">
+        <div class="profile-image">
+
+        </div>
+
+        <h3 class="title">POP</h3>
+      </div>
+      <div class="backdrop"></div>
+    </div>
+
+    <div class="card">
+      <img class="background" src="./assets/imagens/kpop.jfif" alt="">
+
+      <div class="card-content">
+        <div class="profile-image">
+
+        </div>
+
+        <h3 class="title">KPOP</h3>
+      </div>
+      <div class="backdrop"></div>
+    </div>
+
+    <div class="card">
+      <img class="background" src="./assets/imagens/mpb-2.jfif" alt="">
+
+      <div class="card-content">
+        <div class="profile-image">
+
+        </div>
+
+        <h3 class="title">MPB</h3>
+      </div>
+      <div class="backdrop"></div>
+    </div>
+
+    <div class="card">
+      <img class="background" src="./assets/imagens/hip-hop.jfif" alt="">
+
+      <div class="card-content">
+        <div class="profile-image">
+
+        </div>
+
+        <h3 class="title">HIP-HOP/RAP</h3>
+      </div>
+      <div class="backdrop"></div>
+    </div>
+
+    <div class="card">
+      <img class="background" src="./assets/imagens/indie.jfif" alt="">
+
+      <div class="card-content">
+        <div class="profile-image">
+
+        </div>
+
+        <h3 class="title">INDIE</h3>
+      </div>
+      <div class="backdrop"></div>
+    </div>
+
+    <div class="card">
+      <img class="background" src="./assets/imagens/album covers/SERTANEJO-AMANDO-BEBENDO-E-SOFRENDO.jpg" alt="">
+
+      <div class="card-content">
+        <div class="profile-image">
+
+        </div>
+
+        <h3 class="title">SERTANEJO</h3>
+      </div>
+      <div class="backdrop"></div>
+    </div>
+
+    <div class="card">
+      <img class="background" src="./assets/imagens/rock.jfif" alt="">
+
+      <div class="card-content">
+        <div class="profile-image">
+
+        </div>
+
+        <h3 class="title">ROCK</h3>
+      </div>
+      <div class="backdrop"></div>
+    </div>
+  </div>
+
+
+
+  </div>
+  </div>
+
+  <div class="section-trending">
+    <div class="container-trending">
+      <ul class="trending-filter">
+        <li>
+          <a class="is_active" href="./pop.html" data-filter="*">POP</a> <!--redirecionamento genero pagina-->
+        </li>
+        <li>
+          <a href="./kpop.html" data-filter=".kp">KPOP</a>
+        </li>
+        <li>
+          <a href="./sertanejo.html" data-filter=".sert">SERTANEJO</a>
+        </li>
+        <li>
+          <a href="./hiphop.html" data-filter=".hip">HIP-HOP/RAP</a>
+        </li>
+        <li>
+          <a class="is_active" href="./indie.html" data-filter=".ind">INDIE/ALTERNATIVE</a>
+        </li>
+        <li>
+          <a class="is_active" href="./mpb.html" data-filter=".mp">MPB</a>
+        </li>
+        <li>
+          <a class="is_active" href="./rock.html" data-filter=".roc">ROCK</a>
+        </li>
+      </ul>
+
+
+      <!--redirecionamento review-->
+      <div class="pop" id="lust">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/POP-LUST-FOR-LIFE.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Lust For Life</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href="./scarlet.html"><img src="./assets/imagens/album covers/POP-SCARLET.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Scarlet</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/POP-THE-FAME-OF-MONSTER.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>The Fame Of Monster</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href="./lemonade.html"><img src="./assets/imagens/album covers/LEMONADE.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Lemonade</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/KPOP-BORN-PINK.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">K-POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Born Pink</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/KPOP-NEWJEANS.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">K-POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>NewJeans</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href="./withyouth.html"><img src="./assets/imagens/TWICE WITH YOU-TH ONLINE COVER.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">K-POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>With YOU-th</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/KPOP-PROOF.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">K-POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Proof</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/KPOP-ZONE.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">K-POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Zone</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/RAP-swimming.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">HIP-HOP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Swimming</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/RAP-melt-my-eyez-see-your-future.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">HIP-HOP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Melt My Eyez See Your Future</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/RAP-the life of pablo.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">HIP-HOP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>The Life Of Pablo</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/RAP-to-pimp-a-butterfly.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">HIP-HOP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>To Pimp A Butterfly</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href="./igor.html"><img src="./assets/imagens/album covers/RAP-tyler the creator - igor.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">HIP-HOP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Igor</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/INDIE-LUSH.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">INDIE/ALTERNATIVE</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>LUSH</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img
+                src="./assets/imagens/album covers/INDIE-The Perfect Pair - beabadoobee_ Song Lyrics, Music Videos & Concerts.jfif"
+                alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">INDIE/ALTERNATIVE</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>The Perfect Pair</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/INDIE-Favourite Worst Nightmare.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">INDIE/ALTERNATIVE</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Favourite Worst Nightmare</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/INDIE-O-MY-HEART.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">INDIE/ALTERNATIVE</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>O My Heart</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/INDIE-IF-I-COULD-MAKE-IT-GO-QUIET.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">INDIE/ALTERNATIVE</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>If I Could Make It Go Quiet</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/SERTANEJO-IDENTIDADE.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">Sertanejo</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Identidade</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/SERTANEJO-AMANDO-BEBENDO-E-SOFRENDO.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">Sertanejo</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Bebendo e Sofrendo</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/SERTANEJO-O-FANTASTICO-MUNDO-DE-NATTAN.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">Sertanejo</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>O Fantastico Mundo De Nattan</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/SERTANEJO-PARAISO-PARTICULAR.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">Sertanejo</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Paraíso Particular</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/SERTANEJO-TO-BE-HENRIQUE.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">SERTANEJO</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>To Be</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/ROCK-BRITISH-STEEL.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">ROCK</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>British Steel</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/ROCK-APPETITE-FOR-DESTRUCTION.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">ROCK</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Appetite For Destruction</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/ROCK-BACK-IN-BLACK.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">ROCK</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Back In Black</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/ROCK-MASTER-OF-PUPPETS.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">ROCK</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Master Of Puppets</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/ROCK-SLIPPERY-WHEN-WET.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">ROCK</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Slippery When Wet</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/MPB-DJAVAN.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">MPB</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Djavan</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/MPB-A-PELE-DO-FUTURO.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">MPB</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>A Pele Do Futuro</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/MPB-FALSO-BRILHANTE.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">MPB</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Falso Brilhante</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/MPB-O-TEMPO-E-AGORA.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">MPB</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>O Tempo É Agora</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/album covers/MPB-TRIBALISTAS.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">MPB</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Tribalistas</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/ariana grande leaning on her own shoulder.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Eternal Sunshine</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/Olivia Rodrigo Guts.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>GUTS</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/- COWBOY CARTER.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">POP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Cowboy Carter</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/txt.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">KPOP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>Minisode 3: TOMORROW</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/J _COLE  MIGHT DELETE LATER.jfif" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">HIP-HOP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>MIGHT DELETE LATER</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pop" id="scarlet">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/Future, Metro Boomin And The Weeknd - We Still Don't Trust You.jfif"
+                alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="category">HIP-HOP</span>
+            <a href="#" onclick="reviewAlbumbrowse()" id="reviewAlbumbrowse">
+              <h4>We Still Don't Trust You</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>

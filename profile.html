@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="shortcut icon" href="./assets/imagens/LOGOOFICIAL.webp" width="200px">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+    <script src="" defer></script>>
+</head>
+
+<body>
+
+    <!--ANIMAÇÃO CARREGAMENTO -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span> <!--SPAN É FAÇA-->
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start (parte da logo) ***** -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+
+                        <!--logo -->
+                        <a href="index-1.html">
+                            <img src="assets/imagens/logo2.png" width="50px" alt="" id="logo">
+                        </a>
+
+                        <!--search-->
+                        <!--search-->
+                        <input type="text" id="myInput" onkeyup="myFunction()"
+                            placeholder="Search for albums or genre.." title="Type an album">
+
+                        <ul id="myUL">
+                            <li><a href="#">pop</a></li>
+                            <!--redirecionamento de pesquisa para suas respectivas paginas-->
+                            <li><a href="#">kpop</a></li>
+                            <li><a href="#">sertanejo</a></li>
+                            <li><a href="#">indie</a></li>
+                            <li><a href="#">rock</a></li>
+                            <li><a href="#">mpb</a></li>
+                            <li><a href="#">hip hop</a></li>
+
+                            <li><a href="#">favourite worst nightmare</a></li>
+                            <li><a href="#">make it go quiet</a></li>
+                            <li><a href="#">lush</a></li>
+                            <li><a href="#">o my heart</a></li>
+                            <li><a href="#">perfect pair</a></li>
+
+                            <li><a href="#">zone</a></li>
+                            <li><a href="#">newjeans</a></li>
+                            <li><a href="#">proof</a></li>
+                            <li><a href="#">born pink</a></li>
+                            <li><a href="#">with youth</a></li>
+
+                            <li><a href="#">a pele do futuro</a></li>
+                            <li><a href="#">djavan</a></li>
+                            <li><a href="#">falso brilhante</a></li>
+                            <li><a href="#">o tempo é agora</a></li>
+                            <li><a href="#">tribalista</a></li>
+
+                            <li><a href="#">lust for life</a></li>
+                            <li><a href="#">motomami</a></li>
+                            <li><a href="#">scarlet</a></li>
+                            <li><a href="#">the fame of monster</a></li>
+                            <li><a href="#">lemonade</a></li>
+
+                            <li><a href="#">igor</a></li>
+                            <li><a href="#">to pimp a butterfly</a></li>
+                            <li><a href="#">melt my eyez see your future</a></li>
+                            <li><a href="#">swimming</a></li>
+                            <li><a href="#">the life of pablo</a></li>
+
+                            <li><a href="#">appetite for destruction</a></li>
+                            <li><a href="#">back in black</a></li>
+                            <li><a href="#">british steel</a></li>
+                            <li><a href="#">master of puppets</a></li>
+                            <li><a href="#">slippery when wet</a></li>
+
+                            <li><a href="#">bebendo e sofrendo</a></li>
+                            <li><a href="#">identidade</a></li>
+                            <li><a href="#">o fantastico mundo de nattan</a></li>
+                            <li><a href="#">paraiso particular</a></li>
+                            <li><a href="#">to be</a></li>
+
+                            <li><a href="#">cowboy carter</a></li>
+                            <li><a href="#">eternal sunshine</a></li>
+                            <li><a href="#">we still dont trust you</a></li>
+                            <li><a href="#">guts</a></li>
+                            <li><a href="#">might delete later</a></li>
+                            <li><a href="#">sos</a></li>
+                            <li><a href="#">minisode</a></li>
+                        </ul>
+
+                        <!--menu-->
+                        <ul class="nav">
+                            <li><a href="./index-1.html"><button>HOME</button></a></li>
+                            <li><a href="./browse.html"><button>BROWSE</button></a></li>
+                            <li><a href="./playlist.html"><button>PLAYLIST</button></a></li>
+                            <li><a href="./profile.html"><button>PROFILE</button></a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="profile-menu">
+        <img src="./assets/imagens/pfp1.jfif" alt="user-pic">
+        <h1 id="user">nuugfan</h1>
+        <p class="follower">Followers: 2</p>
+        <p class="following">Following: 34</p>
+        <p id="bio">20yo, Brazilian, she/her. I like every kind of music! I'm a music enthusiastic</p>
+        <button type="text">EDIT PROFILE</button>
+    </div>
+
+
+    <!--activity-->
+    <div class="pin-activity">
+        <h3 class="playlists">RECENT ACTIVITY</h3>
+        <div class="thumb-1">
+            <a href="./browse.html"><img src="./assets/imagens/J _COLE  MIGHT DELETE LATER.jfif" alt=""></a>
+        </div>
+        <div class="down-content">
+            <span class="category">HIP-HOP</span>
+            <a href="#" onclick="albumRecent1()" id="albumRecent1">
+                <h4>Might Delete Later</h4>
+            </a>
+        </div>
+
+        <div class="thumb-2">
+            <a href="./browse.html"><img src="./assets/imagens/TWICE WITH YOU-TH ONLINE COVER.jfif" alt=""></a>
+        </div>
+        <div class="down-content">
+            <span class="category">K-POP</span>
+            <a href="#" onclick="albumRecent2()" id="albumRecent2">
+                <h4>With YOU-th</h4>
+            </a>
+
+            <div class="thumb-3">
+                <a href="./browse.html"><img src="./assets/imagens/ariana grande leaning on her own shoulder.jfif"
+                        alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category">POP</span>
+                <a href="#" onclick="albumRecent3()" id="albumRecent3">
+                    <h4>Eternal Sunshine</h4>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--liked-->
+    <div class="pin-liked">
+        <h3 class="liked">LIKED</h3>
+        <div class="liked-1">
+            <a href="./browse.html"><img src="./assets/imagens/TWICE WITH YOU-TH ONLINE COVER.jfif" alt=""></a>
+        </div>
+        <div class="down-content">
+            <span class="category-liked">K-POP</span>
+            <a href="#" onclick="likedAlbum1()" id="likedAlbum1">
+                <h4>With YOU-th</h4>
+            </a>
+        </div>
+
+        <div class="liked-2">
+            <a href="./browse.html"><img
+                    src="./assets/imagens/Future, Metro Boomin And The Weeknd - We Still Don't Trust You.jfif"
+                    alt=""></a>
+        </div>
+        <div class="down-content">
+            <span class="category-liked">HIP-HOP</span>
+            <a href="#" onclick="likedAlbum2()" id="likedAlbum2">
+                <h4>We Still Don't Trust You</h4>
+            </a>
+
+            <div class="liked-3">
+                <a href="./browse.html"><img
+                        src="./assets/imagens/album covers/INDIE-The Perfect Pair - beabadoobee_ Song Lyrics, Music Videos & Concerts.jfif"
+                        alt=""></a>
+            </div>
+            <div class="down-content">
+                <span class="category-liked">INDIE</span>
+                <a href="#" onclick="likedAlbum3()" id="likedAlbum3">
+                    <h4>The Perfect Pair</h4>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--reviews-->
+    <div class="pin-reviews">
+        <div class="container">
+            <h3 class="review">YOUR RECENT REVIEWS</h3>
+            <div class="review-1">
+                <p>this has to be one of the best albums I´ve ever listened to in my whole life! i got you should´ve be
+                    the title song instead of one spark tho</p>
+            </div>
+            <span class="category-review">With YOU-th</span>
+
+            <div class="review-2">
+                <p>idk I didnt really like this one. kendrick ate drake up, j. cole just got off while he could, and he
+                    really deleted</p>
+            </div>
+            <span class="category-review">Might Delete Later</span>
+
+            <div class="review-3">
+                <p>is good in general, but ariana kinda of got stuck with the same songs with diffent lyrics since idk,
+                    motive? I think is kinda generic</p>
+            </div>
+            <span class="category-review">Eternal Sunshine</span>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genre</title>
+    <link rel="shortcut icon" href="./assets/imagens/LOGOOFICIAL.webp" width="200px">
+    <link rel="stylesheet" href="./assets/css/genero.css">
+    <script src="" defer></script>>
+  </head>
+</head>
+
+<body>
+  <!--ANIMAÇÃO CARREGAMENTO -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span> <!--SPAN É FAÇA-->
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start (parte da logo) ***** -->
+  <header class="header-area">
+    <div class="container-1">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+
+            <!--logo -->
+            <a href="./index-1.html" class="logo">
+              <img src="./assets/imagens/logo2.png" width="50px" alt="">
+            </a>
+
+            <!--search-->
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for albums or genre.."
+              title="Type an album">
+
+            <ul id="myUL">
+              <li><a href="#">pop</a></li> <!--redirecionamento de pesquisa para suas respectivas paginas-->
+              <li><a href="#">kpop</a></li>
+              <li><a href="#">sertanejo</a></li>
+              <li><a href="#">indie</a></li>
+              <li><a href="#">rock</a></li>
+              <li><a href="#">mpb</a></li>
+              <li><a href="#">hip hop</a></li>
+
+              <li><a href="#">favourite worst nightmare</a></li>
+              <li><a href="#">make it go quiet</a></li>
+              <li><a href="#">lush</a></li>
+              <li><a href="#">o my heart</a></li>
+              <li><a href="#">perfect pair</a></li>
+
+              <li><a href="#">zone</a></li>
+              <li><a href="#">newjeans</a></li>
+              <li><a href="#">proof</a></li>
+              <li><a href="#">born pink</a></li>
+              <li><a href="#">with youth</a></li>
+
+              <li><a href="#">a pele do futuro</a></li>
+              <li><a href="#">djavan</a></li>
+              <li><a href="#">falso brilhante</a></li>
+              <li><a href="#">o tempo é agora</a></li>
+              <li><a href="#">tribalista</a></li>
+
+              <li><a href="#">lust for life</a></li>
+              <li><a href="#">motomami</a></li>
+              <li><a href="#">scarlet</a></li>
+              <li><a href="#">the fame of monster</a></li>
+              <li><a href="#">lemonade</a></li>
+
+              <li><a href="#">igor</a></li>
+              <li><a href="#">to pimp a butterfly</a></li>
+              <li><a href="#">melt my eyez see your future</a></li>
+              <li><a href="#">swimming</a></li>
+              <li><a href="#">the life of pablo</a></li>
+
+              <li><a href="#">appetite for destruction</a></li>
+              <li><a href="#">back in black</a></li>
+              <li><a href="#">british steel</a></li>
+              <li><a href="#">master of puppets</a></li>
+              <li><a href="#">slippery when wet</a></li>
+
+              <li><a href="#">bebendo e sofrendo</a></li>
+              <li><a href="#">identidade</a></li>
+              <li><a href="#">o fantastico mundo de nattan</a></li>
+              <li><a href="#">paraiso particular</a></li>
+              <li><a href="#">to be</a></li>
+
+              <li><a href="#">cowboy carter</a></li>
+              <li><a href="#">eternal sunshine</a></li>
+              <li><a href="#">we still dont trust you</a></li>
+              <li><a href="#">guts</a></li>
+              <li><a href="#">might delete later</a></li>
+              <li><a href="#">sos</a></li>
+              <li><a href="#">minisode</a></li>
+            </ul>
+
+            <!--menu-->
+            <ul class="nav">
+              <li><a href="./index-1.html"><button>HOME</button></a></li>
+              <li><a href="./browse.html"><button>BROWSE</button></a></li>
+              <li><a href="./playlist.html"><button>PLAYLIST</button></a></li>
+              <li><a href="./profile.html"><button>PROFILE</button></a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--TODOS OS DADOS DEVEM SER ALTERADOS DE ACORDO COM O GENERO SELECIONADO-->
+  <h3 class="genero">POP</h3> <!--alterar de acordo com o genero selecionado-->
+
+  <!--REDIRECIONAMENTO DOS ALBUMS DE CADA GENERO PARA REVIEW-->
+  <div class="album1" id="album1">
+    <div class="item">
+      <div class="thumb">
+        <a href="./scarlet.html"><img src="./assets/imagens/album covers/POP-SCARLET.jpg" alt=""></a>
+        <!--é necesspario adicionar a imagem de cada album no redirecionamento. as imagens estão identificadas com os generos e o nome do album-->
+      </div>
+      <div class="down-content">
+        <span class="category1">POP</span>
+        <a href="#" onclick="review1()" id="review1">
+          <h4>Scarlet</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="album2" id="album2">
+    <div class="item">
+      <div class="thumb">
+        <a href="./browse.html"><img src="./assets/imagens/album covers/POP-MOTOMAMI.jpg" alt=""></a>
+        <!--é necesspario adicionar a imagem de cada album no redirecionamento. as imagens estão identificadas com os generos e o nome do album-->
+      </div>
+      <div class="down-content">
+        <span class="category2">POP</span>
+        <a href="#" onclick="review2()" id="review2">
+          <h4>MOTOMAMI</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="album3" id="album3">
+    <div class="item">
+      <div class="thumb">
+        <a href="./browse.html"><img src="./assets/imagens/album covers/POP-LUST-FOR-LIFE.jpg" alt=""></a>
+        <!--é necesspario adicionar a imagem de cada album no redirecionamento. as imagens estão identificadas com os generos e o nome do album-->
+      </div>
+      <div class="down-content">
+        <span class="category3">POP</span>
+        <a href="#" onclick="review3()" id="review3">
+          <h4>Lust For Life</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="album4" id="album4">
+    <div class="item">
+      <div class="thumb">
+        <a href="./browse.html"><img src="./assets/imagens/album covers/POP-THE-FAME-OF-MONSTER.jpg" alt=""></a>
+        <!--é necesspario adicionar a imagem de cada album no redirecionamento. as imagens estão identificadas com os generos e o nome do album-->
+      </div>
+      <div class="down-content">
+        <span class="category4">POP</span>
+        <a href="#" onclick="review4()" id="review4">
+          <h4>The Fame Of Monster</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="album5" id="album5">
+    <div class="item">
+      <div class="thumb">
+        <a href="./browse.html"><img src="./assets/imagens/ariana grande leaning on her own shoulder.jfif" alt=""></a>
+        <!--é necesspario adicionar a imagem de cada album no redirecionamento. as imagens estão identificadas com os generos e o nome do album-->
+      </div>
+      <div class="down-content">
+        <span class="category5">POP</span>
+        <a href="#" onclick="review5()" id="review5">
+          <h4>Eternal Sunshine</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

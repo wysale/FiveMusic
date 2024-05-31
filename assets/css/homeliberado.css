@@ -1,0 +1,72 @@
+/*ESSA PARTE DEVE SER ALTERADA PARA SE ENCAIXAR NO DESIGN DEFINIDO (pesquisa)*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1a1a4a;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  width: 200%;
+  margin: 10px 50px 20px;
+  font-size: 50%;
+}
+
+
+
+
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*essa parte é a única do css da pesquisa que NÃO deve ser alterada (esconde os filtros de pesquisa)*/
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: none;
+}
+/*FINAL parte inalterável*/
+
+/*ESSA PARTE DEVE SER ALTERADA PARA SE ENCAIXAR NO DESIGN DEFINIDO (pesquisa)*/
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+.down-content{
+    color: black;
+}
+/*final (pesquisa)*/
+
+/*ADICIONAR O DESIGN AQUI*/

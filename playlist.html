@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playlist</title>
+  <link rel="shortcut icon" href="./assets/imagens/LOGOOFICIAL.webp" width="200px">
+  <link rel="stylesheet" href="./assets/css/playlist.css">
+  <script src="./assets/jvspt/playlist.js" defer></script>
+</head>
+
+<body>
+
+  <!--PESQUISA MENU-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  </head>
+
+  <body>
+    <!--ANIMAÇÃO CARREGAMENTO -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span> <!--SPAN É FAÇA-->
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***** Header Area Start (parte da logo) ***** -->
+    <header class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+
+              <!--logo -->
+              <a href="index-1.html" class="logo">
+                <img src="assets/imagens/logo2.png" width="50px" alt="">
+              </a>
+
+              <!--search-->
+              <!--search-->
+              <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for albums or genre.."
+                title="Type an album">
+
+              <ul id="myUL">
+                <li><a href="#">pop</a></li>
+                <!--redirecionamento de pesquisa para suas respectivas paginas-->
+                <li><a href="#">kpop</a></li>
+                <li><a href="#">sertanejo</a></li>
+                <li><a href="#">indie</a></li>
+                <li><a href="#">rock</a></li>
+                <li><a href="#">mpb</a></li>
+                <li><a href="#">hip hop</a></li>
+
+                <li><a href="#">favourite worst nightmare</a></li>
+                <li><a href="#">make it go quiet</a></li>
+                <li><a href="#">lush</a></li>
+                <li><a href="#">o my heart</a></li>
+                <li><a href="#">perfect pair</a></li>
+
+                <li><a href="#">zone</a></li>
+                <li><a href="#">newjeans</a></li>
+                <li><a href="#">proof</a></li>
+                <li><a href="#">born pink</a></li>
+                <li><a href="#">with youth</a></li>
+
+                <li><a href="#">a pele do futuro</a></li>
+                <li><a href="#">djavan</a></li>
+                <li><a href="#">falso brilhante</a></li>
+                <li><a href="#">o tempo é agora</a></li>
+                <li><a href="#">tribalista</a></li>
+
+                <li><a href="#">lust for life</a></li>
+                <li><a href="#">motomami</a></li>
+                <li><a href="#">scarlet</a></li>
+                <li><a href="#">the fame of monster</a></li>
+                <li><a href="#">lemonade</a></li>
+
+                <li><a href="#">igor</a></li>
+                <li><a href="#">to pimp a butterfly</a></li>
+                <li><a href="#">melt my eyez see your future</a></li>
+                <li><a href="#">swimming</a></li>
+                <li><a href="#">the life of pablo</a></li>
+
+                <li><a href="#">appetite for destruction</a></li>
+                <li><a href="#">back in black</a></li>
+                <li><a href="#">british steel</a></li>
+                <li><a href="#">master of puppets</a></li>
+                <li><a href="#">slippery when wet</a></li>
+
+                <li><a href="#">bebendo e sofrendo</a></li>
+                <li><a href="#">identidade</a></li>
+                <li><a href="#">o fantastico mundo de nattan</a></li>
+                <li><a href="#">paraiso particular</a></li>
+                <li><a href="#">to be</a></li>
+
+                <li><a href="#">cowboy carter</a></li>
+                <li><a href="#">eternal sunshine</a></li>
+                <li><a href="#">we still dont trust you</a></li>
+                <li><a href="#">guts</a></li>
+                <li><a href="#">might delete later</a></li>
+                <li><a href="#">sos</a></li>
+                <li><a href="#">minisode</a></li>
+              </ul>
+
+              <!--menu-->
+              <ul class="nav">
+                <li><a href="./index-1.html"><button>HOME</button></a></li>
+                <li><a href="./browse.html"><button>BROWSE</button></a></li>
+                <li><a href="./playlist.html"><button>PLAYLIST</button></a></li>
+                <li><a href="./profile.html"><button>PROFILE</button></a></li><button onclick="menuProfile()"
+                  id="profile-menu">Profile</button>
+                </li>
+              </ul>
+              <a class='menu-trigger'>
+                <span>Menu</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <h3 class="title-playlist">Popular Playlists</div>
+      <div class="icon">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+          viewBox="0 0 24 24" width="30px">
+          <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+            d="M9 8h10M9 12h10M9 16h10M4.99 8H5m-.02 4h.01m0 4H5" />
+        </svg>
+        <span>7</span>
+      </div>
+
+      <!--REDIRECIONAMENTO DA PLAYLIST PARA PLAYLIST APRESENTAÇÃO, OS OUTROS SÃO APENAS DEMONSTRATIVOS-->
+      <div class="playlist1" id="playlist1">
+        <div class="item">
+          <div class="thumb">
+            <a href="./playlist-apresentacao.html"><img src="./assets/imagens/playlist-fotos/f6b76217-42d7-4e74-98d6-b4dc599705d7.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="playlist1">12/04/2024</span>
+            <a href="#" onclick="playlist1()" id="playlist1">
+              <h4>vibing at midnight</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist2" id="playlist2">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/playlist-fotos/tres.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="playlist2">06/05/2024</span>
+            <a href="#" onclick="playlist2()" id="playlist2">
+              <h4>apocalypse</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist3" id="playlist3">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/playlist-fotos/dois.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="playlist3">20/03/2024</span>
+            <a href="#" onclick="playlist3()" id="playlist3">
+              <h4>to listen on my way home</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist4" id="playlist4">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/playlist-fotos/be69ff2a-514e-431a-8224-26c83a32ae49.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="playlist4">22/03/2024</span>
+            <a href="#" onclick="playlist4()" id="playlist4">
+              <h4>favs</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist5" id="playlist5">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/playlist-fotos/um.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="playlist5">18/03/2024</span>
+            <a href="#" onclick="playlist5()" id="playlist5">
+              <h4>baby blue love</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist6" id="playlist6">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/playlist-fotos/wewereinparisx.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="playlist6">02/04/2024</span>
+            <a href="#" onclick="playlist6()" id="playlist6">
+              <h4>last waltz</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist7" id="playlist7">
+        <div class="item">
+          <div class="thumb">
+            <a href=""><img src="./assets/imagens/playlist-fotos/0afe8fa5-8567-4cdd-97d4-d1360508ba43.jpg" alt=""></a>
+          </div>
+          <div class="down-content">
+            <span class="playlist7">24/05/2024</span>
+            <a href="#" onclick="playlist7()" id="playlist7">
+              <h4>morning playlist</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--desconhecido-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>FiveMusic</title>
+
+  <link rel="shortcut icon" href="./assets/imagens/LOGOOFICIAL.webp" width="200px">
+  <link rel="stylesheet" href="./assets/css//homeliberado.css"> <!--css-->
+
+  <!--PESQUISA MENU-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <!--ANIMAÇÃO CARREGAMENTO -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span> <!--SPAN É FAÇA-->
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start (parte da logo) ***** -->
+  <header class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+
+            <!--logo -->
+            <a href="index-1.html" class="logo">
+              <img src="assets/imagens/logo2.png" width="50px" alt="">
+            </a>
+
+            <!--search-->
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for albums or genres.."
+              title="Type an album">
+
+
+            <!--menu-->
+            <ul class="nav">
+              <li><a class="button-home"  href="./index-1.html"><button>HOME</button></a></li>
+              <li><a class="button-browse"  href="./browse.html"><button>BROWSE</button></a></li>
+              <li><a class="button-playlist"  href="./playlist.html"><button>PLAYLIST</button></a></li>
+              <li><a  class="button-profile" href="./profile.html"><button>PROFILE</button></a></li>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-content">
+
+          <!--banner-->
+          <div class="main-banner">
+            <div class="row">
+              <div class="col-lg-7">
+
+                <img src="./assets/imagens/disco.jpg" id="main-image" alt="">
+
+                <!--essas informações devem ir dentro da main image-->
+                <div class="header-text">
+                  <h6>Welcome To FiveMusic</h6>
+                </div>
+
+                <h4><em>Sign Up</em> and start browsing for your favorites songs</h4>
+                <div class="main-button">
+                  <a href="./formulario-sign-in.html"><button>Sign Up</button></a>
+                  <!--final informações-->
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--popular albuns-->
+        <div class="popular-albums">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="heading-section">
+                <h4><em>Popular</em> ALBUMS</h4>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="item">
+                    <a href="./browse.html"><img src="assets/imagens/- COWBOY CARTER.jfif" width="150px" alt=""></a>
+                    <!--alterar onclick e id com base no redirecionamento js-->
+                    <h4 id="cowboy">Cowboy Carter<br><span id="beyonce">Beyoncé</span></h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <a href="./browse.html"><img src="assets/imagens/ariana grande leaning on her own shoulder.jfif"
+                      width="150px" alt=""></a>
+                  <h4 id="eternal">Eternal Sunshine<br><span id="ariana">Ariana Grande</span></h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <a href="./browse.html"><img src="assets/imagens/J _COLE  MIGHT DELETE LATER.jfif" width="150px"
+                    alt=""></a>
+                <h4 id="might">Might Delete Later<br><span id="cole">J. Cole</span></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="item">
+              <a href="./browse.html"><img src="assets/imagens/Olivia Rodrigo Guts.jfif" width="150px" alt=""></a>
+              <h4 id="guts">Guts<br><span id="olivia">Olivia Rodrigo</span></h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <div class="item inner-item">
+                  <a href="./browse.html"><img src="assets/imagens/sos.jfif" width="150px" alt=""></a>
+                  <h4 id="sos">SOS<br><span id="sza">SZA</span></h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-6">
+              <div class="item">
+                <a href="./withyouth.html"><img src="assets/imagens/TWICE WITH YOU-TH ONLINE COVER.jfif" width="150px"
+                    alt=""></a>
+                <h4 id="with">With YOU-th<br><span id="twice">TWICE</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6">
+      <div class="item">
+        <a href="./browse.html"><img src="assets/imagens/txt.jpg" width="150px" alt=""></a>
+        <h4 id="minisode">Minisode 3: TOMORROW<br><span id="txt">TXT</span></h4>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6">
+      <div class="item">
+        <a href="./browse.html"><img
+            src="assets/imagens/Future, Metro Boomin And The Weeknd - We Still Don't Trust You.jfif" width="150px"
+            alt=""></a>
+        <h4 id="we">We Still Don't Trust You<br><span id="future">Future & Metro Boomin</span></h4>
+      </div>
+    </div>
+
+    <div class="col-lg-12">
+      <div class="main-button">
+        <a href="./browse.html">Discover Popular</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <!--popular artists-->
+  <div class="popular-artists">
+    <div class="col-lg-12">
+      <div class="heading-section">
+        <h4><em>Popular</em> ARTISTS</h4>
+      </div>
+
+      <div class="item">
+        <ul>
+          <li><img src="assets/imagens/taylorartist.jfif" alt="" class="templatemo-item"></li>
+          <li>
+            <h4>Taylor Swift</h4><span>Popular</span>
+          </li>
+          <li>
+            <a href="./browse.html"><button>Review</button></a>
+          </li>
+        </ul>
+      </div>
+      <div class="item">
+        <ul>
+          <li><img src="assets/imagens/btsartist.jfif" alt="" class="templatemo-item"></li>
+          <li>
+            <h4>BTS</h4><span>Popular</span>
+          </li>
+          <li>
+            <a href="./browse.html"><button>Review</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <ul>
+          <li><img src="assets/imagens/lanaartist.jfif" alt="" class="templatemo-item"></li>
+          <li>
+            <h4>Lana Del Rey</h4><span>Popular</span>
+          </li>
+          <li>
+            <a href="./browse.html"><button>Review</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <ul>
+          <li><img src="assets/imagens/tyler.jfif" class="templatemo-item"></li>
+          <li>
+            <h4>Tyler, The Creator</h4><span>Popular</span>
+          </li>
+          <li>
+            <a href="./browse.html"><button>Review</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <ul>
+          <li><img src="assets/imagens/twiceartist.jfif" alt="" class="templatemo-item"></li>
+          <li>
+            <h4>TWICE</h4><span>Popular</span>
+          </li>
+          <li>
+            <a href="./browse.html"><button>Review</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="item last-item">
+        <ul>
+          <li><img src="assets/imagens/Beyoncé.jfif" alt="" class="templatemo-item"></li>
+          <li>
+            <h4>Beyoncé</h4><span>Popular</span>
+          </li>
+          <li>
+            <a href="./browse.html"><button>Review</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-lg-12">
+      <div class="main-button">
+        <a href="./profile.html"><button>View Your Reviews</button></a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2024 <a href="#">FiveMusic</a> Unitins. All rights reserved.
+
+            <br>Design: <a href="https://unitins.com" target="_blank">Unitins</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--desconhecido-->
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="./assets/jvspt/formulariosignup.js"></script>
+  <script type="text/javascript" src="./assets/jvspt/homeblock.js"></script>
+
+</body>
+
+</html>

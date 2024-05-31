@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="./assets/imagens/LOGOOFICIAL.webp" width="200px">
+    <link rel="shortcut icon" href="./assets/imagens/logofivemusicsite-removebg-preview.png" width="200px">
+    <link rel="stylesheet" href="./assets/css/sign-up.css">
+
+</head>
+
+<body>
+
+        <h1 id="sign-up">Sign Up</h1>
+        <div class="social-media">
+            <a href="#">
+                <img src="./assets/imagens/google.png" id="google" width="150px">
+                <img src="assets/imagens/twitter_png.png" id="twitter" width="150px">
+                <img src="assets/imagens/facebook.png" id="facebook" width="150px">
+            </a>
+        </div>
+        <div class="alternative">
+            <span>OR</span>
+        </div>
+
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+            <label for="name">
+                <span>Name</span>
+                <input type="text" id="name" required>
+                <label for="e-mail">
+                    <span>E-mail</span>
+                    <input type="email" id="email" required>
+                    <label for="password">
+                        <span>Password</span>
+                        <input type="password" id="password" required minlength="6" maxlength="12" size="12" required>
+                    </label>
+                    <label for="username">
+                        <span>Username</span>
+                        <input type="text" id="username" required>
+                    </label>
+                    <div class="button">
+                        <button onclick="userCadastrado()" id="submit" type="button">Sign up</button>
+                    </div>
+
+                    <div class="button">
+                        <button id="reset" type="button">Cancel</button>
+                    </div>
+                    <div class="login-link">
+                        <a href="./formulario-sign-in.html"><button>Already have an account? Sign in</button></a>
+                    </div>
+        </form>
+
+    <section class="images">
+        <img src="" alt="">
+        <div class="circle"></div>
+    </section>
+
+    <script type="text/javascript" src="./assets/jvspt/formulariosignup.js"></script>
+
+</body>
+
+</html>
